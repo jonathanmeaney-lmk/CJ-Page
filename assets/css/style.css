@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.index-slogan h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 300%;
+    background-color: rgba(61, 75, 59, 0.5);
+    padding: 1rem;
+}
+
+.index-photo-container {
+    height: 75vh;
+    background: url("../images/indexcoverphoto.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(72, 173, 81, 0.75);
+}
+
+.index-features-container {
+    background-color: rgba(72, 173, 81, 0.75);
+}
