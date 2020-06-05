@@ -8,7 +8,7 @@ body {
 .index-slogan h1 {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 300%;
+    font-size: 4rem;
     background-color: rgba(61, 75, 59, 0.5);
     padding: 1rem;
 }
@@ -29,9 +29,26 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(72, 173, 81, 0.75);
+    color: rgba(132, 156, 135, 0.85); 
 }
 
 .index-features-container {
-    background-color: rgba(72, 173, 81, 0.75);
+    background-color: rgba(132, 156, 135, 0.85);
+    color: black
+}
+
+.features-heading {
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.index-events-list {
+     list-style-type: none;
+     padding: 0;
+}
+
+.feature-buttons {
+    border-radius: 15px;
+    background-color: whitesmoke;
 }
