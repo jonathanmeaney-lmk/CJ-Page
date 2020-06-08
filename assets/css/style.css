@@ -52,3 +52,7 @@ body {
     border-radius: 15px;
     background-color: whitesmoke;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
