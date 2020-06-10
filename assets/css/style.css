@@ -8,7 +8,7 @@ body {
 .index-slogan h1 {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: rgba(61, 75, 59, 0.5);
     padding: 1rem;
 }
@@ -55,4 +55,34 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #f8f9fa;
+}
+
+footer {
+    background-color: #343a40;
+    color: whitesmoke;
+    padding: 1rem
+}
+
+.footer-heading {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+.social-links li a i {
+    padding: 6px;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: whitesmoke;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgba(132, 156, 135, 0.85);
 }
