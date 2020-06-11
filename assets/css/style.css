@@ -29,12 +29,12 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(132, 156, 135, 0.85); 
+    color: white; 
 }
 
-.index-features-container {
+.index-features-wrapper {
     background-color: rgba(132, 156, 135, 0.85);
-    color: black
+    color: #343a40;
 }
 
 .features-heading {
@@ -54,7 +54,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #f8f9fa;
+    color: rgba(132, 156, 135, 0.85);
 }
 
 footer {
@@ -91,11 +91,12 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #c7cec8;
+    color: #343a40;
 }
 
 .events-image-container {
     height: 50vh;
-    background: url("../images/events-bg-image.jpg") no-repeat bottom right fixed; 
+    background: url("../images/events-bg-image.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
