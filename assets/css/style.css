@@ -86,3 +86,32 @@ footer {
 .social-links li a i:hover {
     color: rgba(132, 156, 135, 0.85);
 }
+
+.card-events {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #c7cec8;
+}
+
+.events-image-container {
+    height: 50vh;
+    background: url("../images/events-bg-image.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.events-container {
+    background-color: rgba(132, 156, 135, 0.85)
+}
+
+.card-dates {
+    font-family: 'Roboto Mono', monospace;
+}
