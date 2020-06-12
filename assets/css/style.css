@@ -118,8 +118,48 @@ footer {
 }
 
 .bookings-form-section {
-    background: url(../images/bookings-image.jpg);
+    background: url(../images/bookings-image.jpg) no-repeat center top fixed;
     background-size: cover;
-    background-position: center top;
-    height: 100vh;
+    height: 120vh;
+}
+
+.bookings-lead {
+    color: whitesmoke;
+    background-color: rgba(61, 75, 59, 0.5);
+    padding: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bookings-lead h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bookings-lead hr, .bookings-form hr  {
+    background-color: lightgray;
+}
+
+.bookings-form {
+    color: whitesmoke;
+    background-color: rgba(61, 75, 59, 0.5);
+    padding: 2rem;
+    margin-bottom: 30px;
+}
+
+.bookings-form h4 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.form-group input, select, textarea {
+    background: lightgray;
+    color: whitesmoke;
+}
+
+.book-button {
+    color: whitesmoke;
+    background-color: #842727;
+    border-color: #842727;
+    border-radius: 20px;
+    
 }

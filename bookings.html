@@ -32,7 +32,46 @@
     </nav>
 
 <section class="bookings-form-section">
-
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="bookings-lead col-10 offest-1 col-md-6 col-lg-5 text-center">
+                <h2>Jungle Bookings</h2>
+                <hr>
+                <p>We're available for bar/club bookings as well as private parties and functions, PR events and more. 
+                We'll tailor to any crowd or event but always with the grooves guaranteed to get the party moving.</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <form class="bookings-form text-center">
+                <h4>Make a booking:</h4> 
+                <hr>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Enter e-mail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-control-sm">
+                            <option>Event Type</option>
+                            <option>Club/Bar night</option>
+                            <option>PR Event</option>
+                            <option>Private Party/Function</option>
+                            <option>Wedding</option>
+                            <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" placeholder="Date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Additional info..."></textarea>
+                </div>
+                <button type="button" class="btn btn-success book-button">Book Now!</button>
+            </form>
+        </div>
+    </div>
 </section>
 
 <footer class="container-fluid">
