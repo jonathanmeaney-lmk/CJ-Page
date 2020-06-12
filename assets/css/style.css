@@ -116,3 +116,10 @@ footer {
 .card-dates {
     font-family: 'Roboto Mono', monospace;
 }
+
+.bookings-form-section {
+    background: url(../images/bookings-image.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
