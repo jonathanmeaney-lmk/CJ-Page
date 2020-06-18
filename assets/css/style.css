@@ -168,4 +168,12 @@ footer {
     background-size: cover;
 }
 
+.carousel-container {
+    border: 10px rgba(61, 75, 59, 0.5) solid;
+}
 
+.carousel-caption h1 {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(61, 75, 59, 0.5);
+    padding: 5px;
+}
