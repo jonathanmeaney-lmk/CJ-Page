@@ -161,5 +161,11 @@ footer {
     background-color: #842727;
     border-color: #842727;
     border-radius: 20px;
-    
 }
+
+.about-us-section {
+    background: url(../images/about-bg-image.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+
