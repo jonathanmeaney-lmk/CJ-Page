@@ -177,3 +177,21 @@ footer {
     background-color: rgba(61, 75, 59, 0.5);
     padding: 5px;
 }
+
+.mixes-box {
+    background-color: blue;
+    margin: 30px 10px;
+}
+
+.playlists-box {
+    background-color: #c7cec8;;
+    margin: 30px 10px;
+}
+
+.mix-image {
+    margin: 15px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+    overflow: hidden;    
+}
